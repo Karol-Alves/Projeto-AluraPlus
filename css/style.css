@@ -152,6 +152,47 @@ body {
     color: var(--branco-principal);
 }
 
-.lista__link :hover{
+.lista__link :hover {
     color: var(--botao-azul-efeito);
+}
+
+@media screen and (max-width: 768px) {
+
+    h2{
+        margin: 0.5em;
+    }
+
+    .container{
+        display: block;
+        background-image: none;
+    }
+
+    .container__titulo{
+        margin-top: 3em;
+    }
+
+    .container__imagem{
+        width: 50vw;
+    }
+
+    .container__caixa{
+        margin: 2em 2em;
+    }
+
+    .secundario{
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario__imagem{
+        width: 50vw;
+    }
+
+    .dispositivos__lista{
+        display: block;
+    }
+
+    .rodape__lista{
+        display: block;
+    }
 }
